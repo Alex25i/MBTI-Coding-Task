@@ -13,7 +13,7 @@ To build and run this project, use Java Version 13, and execute the following co
 
 ## Assumptions
 
-I made a view assumptions for this challenge:
+I made a few assumptions for this challenge:
 
 1. Adjacent intervals are NOT considered overlapping! Therefore, e.g. the following two intervals will not get
    merged: [1,3] [3,4]
@@ -35,8 +35,8 @@ I made a view assumptions for this challenge:
 
 ### Time complexity
 
-The sorting has a time complexity of O(n log n)
-The merge processing has a complexity of O(n)
+The sorting has a time complexity of O(n log n).
+The merge processing has a complexity of O(n).
 Therefore, the overall time complexity is O(n log n).
 
 ### Space complexity
